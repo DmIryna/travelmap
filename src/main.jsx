@@ -4,7 +4,7 @@ import App from "./App.jsx"
 import "./index.css"
 import { disableReactDevTools } from "@fvilers/disable-react-devtools"
 
-if (import.meta.env.NODE_ENV === "production") {
+if (import.meta.env.VITE_NODE_ENV === "production") {
   disableReactDevTools()
 }
 
